@@ -1,0 +1,67 @@
+body{
+  /* rules go here */
+  margin: 0px;
+  color: black;
+}
+
+#container {
+width: 1000px;
+	margin: 0 auto 20px;
+
+}
+
+a 	{
+	text-decoration: none;
+	color: #333;
+
+}
+
+strong a{ color: #00f;}
+nav {
+
+	overflow: hidden;
+	padding: 20px 30px 10px;
+	border-bottom: 1px #aaa solid;
+	position: relative;
+}
+
+nav > ul {
+
+	float: right;
+	list-style: none;
+	margin: 35px -30px 0 0 ;
+	padding: 0;
+}
+
+nav > ul li {
+
+	margin-right: 30px;
+	text-align: center;
+}
+
+ul { 
+width: 621px;}
+
+li {
+	width:  151px;
+height: 30px;
+	display: inline;
+	margin: 50px;
+}
+nav	> a.logo{
+text-indent: -9000px;
+height: 55px;
+width: 194px;
+background: url() no-repeat center top;
+background-size: 154px 50px;
+}
+img { 
+background: no-repeat;}
+
+figure.victoria {
+	width: 500px;
+	height: 500px;
+	background: url( http://basecamp.com/assets/images/home-sign-up/victoria.png) no-repeat;
+
+	background-size: 400px 400px;
+}
